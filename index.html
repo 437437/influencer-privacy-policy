@@ -1,64 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>プライバシーポリシー | インフルエンサーゴールメーカー</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            margin: 0;
-            padding: 0;
-            color: #333333;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #ffffff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            color: #333333;
-        }
-        p, li {
-            line-height: 1.6;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section-title {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 10px;
-            border-bottom: 2px solid #333333;
-            padding-bottom: 5px;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>プライバシーポリシー | インフルエンサーゴールメーカー</title>
+  <meta name="description" content="インフルエンサーゴールメーカーのプライバシーポリシー" />
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+      margin: 0; padding: 24px 16px; line-height: 1.7;
+      background: Canvas; color: CanvasText;
+    }
+    main { max-width: 920px; margin: 0 auto; }
+    h1 { font-size: 1.6rem; margin: 0 0 8px; }
+    h2 { font-size: 1.15rem; margin-top: 28px; border-left: 4px solid #3b82f6; padding-left: 8px; }
+    p, li { font-size: 0.98rem; }
+    code, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .note { font-size: .9rem; opacity: .8; }
+    .muted { color: #6b7280; }
+    .card {
+      border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; background: rgba(0,0,0,.02);
+    }
+    a { color: #2563eb; text-decoration: underline; }
+    hr { border: none; border-top: 1px solid #e5e7eb; margin: 28px 0; }
+    footer { margin-top: 40px; text-align: center; font-size: .9rem; color: #6b7280; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>プライバシーポリシー</h1>
-        <p>最終更新日: 2025年9月6日</p>
-        <p>このプライバシーポリシーは、当アプリ「インフルエンサーゴールメーカー」における情報の収集、使用、管理方法について説明します。</p>
+<main>
+  <header>
+    <h1>プライバシーポリシー</h1>
+    <p class="muted">最終更新日: <time datetime="2025-09-06">2025年9月6日</time></p>
+    <p>本プライバシーポリシーは、モバイル/デスクトップアプリ「<strong>インフルエンサーゴールメーカー</strong>」（以下、「本アプリ」）における情報の取扱いについて定めるものです。</p>
+  </header>
 
-        <div class="section">
-            <h2 class="section-title">1. 情報の収集と使用</h2>
-            <p>現時点で、当アプリはユーザーの個人情報（名前、メールアドレス、位置情報など）を収集、保存、共有することはありません。アプリは、ユーザーが入力した情報（フォロワー数、目標フォロワー数、成長率など）を使用して、目標の計算を行いますが、これらの情報はアプリ内で保持されず、サーバーに送信されることもありません。</p>
-        </div>
+  <h2>1. 収集する情報</h2>
+  <div class="card">
+    <p><strong>現時点で、本アプリはユーザーの個人情報（氏名・メールアドレス・連絡先・位置情報など）を収集・保存・共有しません。</strong></p>
+    <ul>
+      <li>入力値（現在フォロワー数／目標フォロワー数／成長率など）は<strong>端末内でのみ計算</strong>に用いられ、サーバーへ送信されません。</li>
+      <li>通知時刻やON/OFFなどの設定は、端末内の<strong>ローカル保存</strong>（例: <span class="mono">SharedPreferences</span> 等）に保持します。</li>
+      <li>アナリティクス、広告トラッキングは現在利用していません。</li>
+    </ul>
+  </div>
 
-        <div class="section">
-            <h2 class="section-title">2. 将来の機能拡張</h2>
-            <p>将来的に、当アプリが個人情報を収集、保存、または共有する機能を追加する場合、プライバシーポリシーを更新し、その情報の取り扱い方法についてユーザーに通知します。</p>
-        </div>
+  <h2>2. 端末内に保存するデータ</h2>
+  <ul>
+    <li>毎日リマインド設定（時刻、ON/OFF）</li>
+    <li>アプリ内の表示・体験のために必要な最小限の設定値</li>
+  </ul>
+  <p class="note">※保存内容は端末内に限定されます。サーバー送信は行いません。</p>
 
-        <div class="section">
-            <h2 class="section-title">3. 情報のセキュリティ</h2>
-            <p>当アプリは、ユーザーの情報のセキュリティを重視しています。現在、個人情報の収集や保存を行っていませんが、将来的にそのような機能を追加する場合には、適切なセキュリティ対策を講じます。</p>
-        </div>
+  <h2>3. 取得する権限</h2>
+  <ul>
+    <li><strong>通知</strong>：毎日リマインド機能のために通知を利用します。初回起動時や設定変更時にOSの許可が必要です。</li>
+    <li><strong>クリップボード</strong>：テキストのコピー操作に限り使用します（ハッシュタグや生成テキストのコピー）。</li>
+    <li><strong>外部リンクの起動</strong>：ヘルプ／規約／Ko-fi等のリンクを外部ブラウザで開くために使用します。</li>
+  </ul>
 
-    </div>
+  <h2>4. ネットワーク通信について</h2>
+  <p>本アプリの主要機能（ゴール計画・グラフ表示など）はオフラインで動作します。一方、<strong>ハッシュタグサジェスター機能</strong>を利用する際は、以下のエンドポイントへ<strong>投稿文と設定パラメータ</strong>を送信して候補を取得します：</p>
+  <ul>
+    <li>エンドポイント例：<span class="mono">https://hashtag-suggester.vercel.app/api/suggest</span></li>
+    <li>送信項目の例：<span class="mono">text</span>（投稿文）、<span class="mono">lang</span>（言語指定）、<span class="mono">exclude</span>（除外タグ）</li>
+  </ul>
+  <p>安全対策として、危険行為の促進やプロンプトインジェクションが疑われる内容はサーバー側でブロックされる場合があります。</p>
+
+  <h2>5. 第三者提供・外部サービス</h2>
+  <ul>
+    <li>本アプリは広告SDKや解析SDKを含みません。</li>
+    <li>外部サイト（利用規約・プライバシー、Ko-fi等）への遷移時は、各サイトのポリシーに従います。</li>
+  </ul>
+
+  <h2>6. 児童のプライバシー</h2>
+  <p>本アプリは13歳未満を対象としていません。13歳未満の個人情報を意図的に収集することはありません。</p>
+
+  <h2>7. ポリシーの変更</h2>
+  <p>将来的に、個人情報の収集・保存・共有が発生する機能を追加する場合、本ポリシーを更新し、アプリ内または公式ページで告知します。</p>
+
+  <h2>8. お問い合わせ</h2>
+  <p>本ポリシーに関するご質問は、アプリ配布ページ（ストア）または開発者の公開連絡先までご連絡ください。</p>
+
+  <hr>
+
+  <h2>関連する規約・ポリシー</h2>
+  <ul>
+    <li>📱 <strong>インフルエンサーゴールメーカー（本アプリ）</strong> プライバシーポリシー（本ページ）</li>
+    <li>🌐 <strong>Hashtag Suggester（Web版）</strong> 利用規約：<a href="https://hashtag-suggester.vercel.app/terms" rel="noopener" target="_blank">https://hashtag-suggester.vercel.app/terms</a></li>
+    <li>🌐 <strong>Hashtag Suggester（Web版）</strong> プライバシーポリシー：<a href="https://hashtag-suggester.vercel.app/privacy" rel="noopener" target="_blank">https://hashtag-suggester.vercel.app/privacy</a></li>
+  </ul>
+
+  <footer>
+    <div>© <span id="y"></span> Yuri Saito</div>
+    <div class="muted">Version 1.0.0</div>
+  </footer>
+</main>
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
